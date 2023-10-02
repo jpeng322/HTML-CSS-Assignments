@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Activity Exercise</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <a href="#about"> About</a>
+        </li>
+        <li style="float: right">
+          <a href="#about">
+            <img
+              class="login-user"
+              src="https://cdn-icons-png.flaticon.com/512/5087/5087579.png"
+              alt="login icon"
+            />
+            Login</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <br />
+
+    <form action="#">
+      <label for="username">User Name</label>
+      <input type="text" name="userName" id="userName" required /> <br />
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password" required /> <br />
+
+      <fieldset>
+        <legend>checkboxes</legend>
+        <label for="checkbox1">Checkbox1</label>
+        <input type="checkbox" name="checkbox1" id="checkbox1" />
+        <label for="checkbox2">Checkbox2</label>
+        <input type="checkbox" name="checkbox2" id="checkbox2" />
+        <label for="checkbox3">Checkbox3</label>
+        <input type="checkbox" name="checkbox3" id="checkbox3" />
+      </fieldset>
+
+      <br />
+
+      <fieldset>
+        <legend>Radio Buttons</legend>
+        <label for="radio1">radio1</label>
+        <input type="radio" name="radio1" id="radio1" />
+        <label for="radio1">radio2</label>
+        <input type="radio" name="radio2" id="radio2" />
+        <label for="radio1">radio3</label>
+        <input type="radio" name="radio3" id="radio3" />
+      </fieldset>
+
+      <br />
+
+      <br />
+      <form action="#">
+        <label for="">Choose a car</label>
+        <select name="cars" id="">
+          <option value="volvo">Volvo</option>
+          <option value="audi">Audi</option>
+          <option value="fiat">Fiat</option>
+          <option value="saab">Saab</option>
+        </select>
+
+        <br />
+
+        <br />
+        <input type="submit" />
+      </form>
+    </form>
+
+    <h1>Practice HTML Form</h1>
+
+    <form action="#">
+      <h1>Login Page</h1>
+      <label for="email">Email</label>
+      <input type="text" name="email" id="email" />
+      <br />
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password" />
+    </form>
+
+    <form action="#">
+      <h1>Register Page</h1>
+      <label for="first_name">First Name</label>
+      <input type="text" name="first_name" id="first_name" />
+      <br />
+      <label for="last_name">Last Name</label>
+      <input type="text" name="last_name" id="last_name" />
+      <br />
+      <label for="email">Email</label>
+      <input type="text" name="email" id="email" />
+      <br />
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password" />
+      <br />
+      <label for="confirm_password">Confirm Password</label>
+      <input type="password" name="confirm_password" id="confirm_password" />
+      <br />
+      Options
+      <input type="radio" name="female" id="female" />
+      <label for="female">Female</label>
+      <input type="radio" name="male" id="male" />
+      <label for="female">Male</label>
+      <br />
+      <label for="date_of_birth">Date Of Birth</label>
+      <input type="text" placeholder="mm/dd/yyyy" />
+      <br />
+      Habits
+      <label for="sports">You like sports</label>
+      <input type="checkbox" name="sports" id="sports" />
+      <label for="eat">You like to eat</label>
+      <input type="checkbox" name="eat" id="eat" />
+      <label for="sleep">You like to sleep</label>
+      <input type="checkbox" name="sleep" id="sleep" />
+    </form>
+  </body>
+</html>

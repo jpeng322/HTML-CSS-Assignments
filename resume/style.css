@@ -1,0 +1,13 @@
+body {
+  padding: 1rem;
+}
+
+section {
+  border: 2px solid black;
+  margin-block: 2rem;
+  padding: 1rem;
+}
+
+p {
+    font-weight: 600;
+}
