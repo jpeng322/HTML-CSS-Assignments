@@ -1,0 +1,90 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.table {
+  border-collapse: separate !important;
+}
+
+table tr {
+  display: flex;
+  width: 100%;
+  height: 70px;
+  align-items: center;
+}
+
+table tr > * {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.summer {
+  color: rgb(233, 74, 74) !important;
+}
+
+.fall {
+  color: rgb(228, 164, 45) !important;
+}
+
+.winter {
+  color: rgb(74, 74, 240) !important;
+}
+
+.spring {
+  color: rgb(80, 211, 80) !important;
+}
+.about,
+.team {
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  transition: 0.2s;
+  color: rgb(10, 182, 159);
+}
+.about:hover,
+.team:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(60, 135, 208);
+}
+
+.schedule-header,
+.seasonal,
+.favorites,
+.order-header,
+.contact-header {
+  color: rgb(60, 135, 208);
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  transition: 0.2s;
+}
+
+.schedule-header:hover,
+.seasonal:hover,
+.favorites:hover,
+.order-header:hover,
+.contact-header:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(10, 182, 159);
+}
+
+.header {
+  color: rgb(10, 182, 159);
+}
+
+.header span {
+  color: rgb(60, 135, 208);
+}
+
+img {
+  transition: 0.5s;
+}
+img:hover {
+  scale: 1.02;
+}
+
+.order, .contact {
+    background-color:  rgb(10, 182, 159);
+    padding: 1.5rem !important;
+    border-radius: .5rem;
+}

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>John's Farm</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="px-5 py-2 d-flex flex-column">
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+
+    <nav class="navbar navbar-expand-lg mb-3 ">
+      <div class="container-fluid d-flex justify-content-between">
+        <a
+          class="navbar-brand d-flex justify-content-center align-items-center gap-2"
+          href="#"
+        >
+          <img src="./boy.png" style="width: 50px" alt="" />
+          <h2 class="mt-2">John's Farm</h2>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="dropdown ms-auto">
+            <button
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Navigate
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="website.html">Home</a></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li>
+                <a class="dropdown-item" href="schedule.html">Farm Schedule</a>
+              </li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><a class="dropdown-item" href="about.html">About</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+    <section class="">
+      <h1 class="fw-bold schedule-header">Farm Schedule and Pricing</h1>
+      <table class="table">
+        <thead>
+          <tr class="fs-3">
+            <th scope="col">Season</th>
+            <th scope="col">Plant</th>
+            <th scope="col">Price</th>
+            <th scope="col">Harvest Day</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row" class="summer">Summer</th>
+            <td>Tomatoes</td>
+            <td>$5 for 5</td>
+            <td>Monday</td>
+          </tr>
+          <tr>
+            <th scope="row" class="summer">Summer</th>
+            <td>Oranges</td>
+            <td>$6 for 5</td>
+            <td>Tuesday</td>
+          </tr>
+          <tr>
+            <th scope="row" class="summer">Summer</th>
+            <td>Strawerries</td>
+            <td>$6 for 12</td>
+            <td>Wednesday</td>
+          </tr>
+          <tr>
+            <th scope="row" class="fall">Fall</th>
+            <td>Pumpkins</td>
+            <td>$8 each</td>
+            <td>Thursday</td>
+          </tr>
+          <tr>
+            <th scope="row" class="fall">Fall</th>
+            <td>Apples</td>
+            <td>$2 each</td>
+            <td>Friday</td>
+          </tr>
+          <tr>
+            <th scope="row" class="fall">Fall</th>
+            <td>Guava</td>
+            <td>$5 for 5</td>
+            <td>Monday</td>
+          </tr>
+          <tr>
+            <th scope="row" class="winter">Winter</th>
+            <td>Asparagus</td>
+            <td>$8 a batch</td>
+            <td>Tuesday</td>
+          </tr>
+          <tr>
+            <th scope="row" class="winter">Winter</th>
+            <td>Garlic</td>
+            <td>$1 a clove</td>
+            <td>Friday</td>
+          </tr>
+          <tr>
+            <th scope="row" class="winter">Winter</th>
+            <td>Onions</td>
+            <td>$3 a batch</td>
+            <td>Monday</td>
+          </tr>
+          <tr>
+            <th scope="row" class="spring">Spring</th>
+            <td>Watermelon</td>
+            <td>$10 each</td>
+            <td>Wednesday</td>
+          </tr>
+          <tr>
+            <th scope="row" class="spring">Spring</th>
+            <td>Blueberries</td>
+            <td>$5 a box</td>
+            <td>Friday</td>
+          </tr>
+          <tr>
+            <th scope="row" class="spring">Spring</th>
+            <td>Cherries</td>
+            <td>$3 a batch</td>
+            <td>Monday</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="d-flex flex-column flex-md-row row justify-content-center mt-4 px-xl-5 gap-4 gap-xl-5">
+      <div class="contact col">
+        <h1 class="fw-bold contact-header">Join the Email List!</h1>
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label fs-5 fw-bolder"">Email Address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+           
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label fs-5 fw-bolder"">Full Name</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <button type="submit" class="btn btn-primary">Join</button>
+        </form>
+      </div>
+      <div class="order col border">
+        <h1 class="fw-bold order-header">Fill An Order!</h1>
+        <form>
+          <label for="select-crop" class="form-label fs-5 fw-bolder">Select a Crop</label>
+          <select class="form-select" id="select-crop" aria-label="Default select example">
+            <option selected>Pick a Crop</option>
+            <option value="1">Tomatoes</option>
+            <option value="2">Oranges</option>
+            <option value="3">Strawberries</option>
+            <option value="4">Pumpkins</option>
+            <option value="5">Apples</option>
+            <option value="6">Guava</option>
+            <option value="7">Asparagus</option>
+            <option value="8">Garlic</option>
+            <option value="9">Onions</option>
+            <option value="10">Watermelon</option>
+            <option value="11">Blueberries</option>
+            <option value="12">Cherries</option>
+          </select>
+        
+        <div class="d-flex w-100 gap-3">
+          <div class="mb-3 mt-3 w-100">
+            <label for="order-email" class="form-label fs-5 fw-bolder">Email Address</label>
+            <input type="text" class="form-control w-100" id="order-email" style="">
+          </div>
+          <div class="mb-3 mt-3">
+            <label for="order-email" class="form-label fs-5 fw-bolder">Quantity</label >
+            <input type="number" class="form-control" id="order-email" style="width:60px">
+          </div>
+        </div>
+          <button type="submit" class="btn btn-primary">Submit Order</button>
+        </form>
+      </div>
+    </section>
+
+    
+  </body>
+</html>
