@@ -14,7 +14,7 @@ John's Farm is created by multiple static HTML pages. To open the pages, you can
 
 ### Schedule Page
 
-![Alt text](./images/schedule.png.png)
+![Alt text](./images/schedule.png)
 
 ### About Page
 
