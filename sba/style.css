@@ -72,7 +72,7 @@ table tr > * {
   color: rgb(10, 182, 159);
 }
 
-.header span {
+#header-name {
   color: rgb(60, 135, 208);
 }
 
